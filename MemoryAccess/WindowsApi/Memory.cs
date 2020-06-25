@@ -41,6 +41,7 @@ namespace MemoryAccess
         }
 
 
+        #region DLL imports
         [DllImport("kernel32.dll")]
         private static extern IntPtr OpenProcess(ProcessAccessFlags dwDesiredAccess, [MarshalAs(UnmanagedType.Bool)] bool bInheritHandle, int dwProcessId);
 
@@ -55,6 +56,7 @@ namespace MemoryAccess
 
         [DllImport("user32.dll")]
         private static extern IntPtr PostMessage(IntPtr hWnd, uint Msg, IntPtr wParam, IntPtr lParam);
+        #endregion
 
 
 

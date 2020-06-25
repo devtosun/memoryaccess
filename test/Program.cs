@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,11 +13,19 @@ namespace test
 {
     class Program
     {
+
+
+
+
         static void Main(string[] args)
         {
 
-         
-            Process process = Process.GetProcessesByName("client_2.0.3").FirstOrDefault();
+
+
+//Timer nesnesinde duzenle
+
+
+    Process process = Process.GetProcessesByName("client_2.0.3").FirstOrDefault();
             var processes = Process.GetProcesses();
             foreach (var item in processes)
             {
@@ -40,6 +49,16 @@ namespace test
             string[] skill = Skills.GetSkills();
 
             Console.WriteLine(skill[5]);
+
+
+            //while (true)
+            //{
+            //    if (MemoryAccess.WindowsApi.Keyboard.GetAsyncKeyState(123) != 0)
+            //    {
+            //        Console.WriteLine("keys a");
+            //        return;
+            //    }
+            //}
 
             Console.ReadLine();
 

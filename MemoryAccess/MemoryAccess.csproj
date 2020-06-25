@@ -42,7 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\IProcessManager.cs" />
-    <Compile Include="Memory.cs" />
+    <Compile Include="WindowsApi\Keyboard.cs" />
+    <Compile Include="WindowsApi\Memory.cs" />
     <Compile Include="ProcessManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\Calculator.cs" />
