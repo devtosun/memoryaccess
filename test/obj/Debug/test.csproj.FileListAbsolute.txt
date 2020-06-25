@@ -1,0 +1,10 @@
+D:\git\memoryaccess\test\bin\Debug\test.exe.config
+D:\git\memoryaccess\test\bin\Debug\test.exe
+D:\git\memoryaccess\test\bin\Debug\test.pdb
+D:\git\memoryaccess\test\obj\Debug\test.csprojAssemblyReference.cache
+D:\git\memoryaccess\test\obj\Debug\test.csproj.CoreCompileInputs.cache
+D:\git\memoryaccess\test\obj\Debug\test.exe
+D:\git\memoryaccess\test\obj\Debug\test.pdb
+D:\git\memoryaccess\test\bin\Debug\MemoryAccess.dll
+D:\git\memoryaccess\test\bin\Debug\MemoryAccess.pdb
+D:\git\memoryaccess\test\obj\Debug\test.csproj.CopyComplete
